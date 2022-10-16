@@ -1,0 +1,14 @@
+# Dictionary: It consists of key and the values; it is mutable (changeable)
+# {key:value}
+Dict={
+    'Username':'Admin',
+    'Password':'Pass',
+    'OS':'Windows',
+    'RAM':'8gb'
+
+}
+print(Dict['Username'])
+print(Dict['RAM'])
+print(Dict['OS'])
+print(Dict['Password'])
+print(Dict) #If we want to have more than one value, we can print it in the form of a list
