@@ -12,3 +12,7 @@ print(Dict['RAM'])
 print(Dict['OS'])
 print(Dict['Password'])
 print(Dict) #If we want to have more than one value, we can print it in the form of a list
+
+#delete
+del Dict['OS']
+print(Dict)
