@@ -16,3 +16,7 @@ print(Dict) #If we want to have more than one value, we can print it in the form
 #delete
 del Dict['OS']
 print(Dict)
+
+# update
+Dict['model']=32667
+print(Dict)
